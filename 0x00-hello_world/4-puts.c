@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A simple program that prints a line without the use of printf
- * Return; returns 0 to show competion as main is a function that returns an int 
+ * Return:  0 (to show competion as main is a function that returns i)
  */
 int main(void)
 {

@@ -5,9 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main -A program that generates a pseudo random number and 
+ * main -A program that generates a pseudo random number and
  * classifies it as positive, zero or negative
- * Return: 1 as any integer can be used,. Not only 0
+ * Return: 0
  */
 int main(void)
 {
@@ -23,5 +23,5 @@ int main(void)
 		printf("%d is zero\n", n);
 	} else
 		printf("%d is negative\n", n);
-	return (1);
+	return (0);
 }

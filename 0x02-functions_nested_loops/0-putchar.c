@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * main - The proogram entry function
+ * main - The program entry function
  *
  * Return: 0 (success)
  */

@@ -4,16 +4,15 @@
 
 /**
  * _isupper - check whether inputed characted is in uppercase.
- *
- * Return: 1 if it is uppercase.
- * Return: 0 if it is lowercase
+ *@c: the integer value to be tested
+ * Return: 1 if it is uppercase  nd 0 if it is lowercase
  */
 int _isupper(int c)
 {
 	if (isupper(c))
 	{
-		return 1;
+		return (1);
 	}
 	else
-		return 0;
+		return (0);
 }

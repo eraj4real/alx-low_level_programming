@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h
+#ifndef main_h
+#define main_h
 
 #include <stdio.h>
 
@@ -9,4 +9,4 @@ int convert_day(int month, int day);
 void print_remaining_days(int month, int day, int year);
 void print_times_tables(int n);
 
-#endif /* main.h */
+#endif /* main_h */

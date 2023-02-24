@@ -6,9 +6,10 @@
  *@c: the integer value to be tested
  * Return: 1 if it is uppercase  nd 0 if it is lowercase
  */
+
 int _isupper(int c)
 {
-	if (c >=65 && c< 91)
+	if (c >= 65 && c < 91)
 	{
 		return (1);
 	}

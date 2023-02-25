@@ -1,4 +1,4 @@
-#include "main.h"					
+#include "main.h"
 
 /**
  * mul - A funtion to multiply two integers
@@ -8,9 +8,9 @@
  */
 
 int mul(int a, int b)
-        
-{       
-        
-        return (a * b);
-        
+
+{
+
+	return (a * b);
+
 }

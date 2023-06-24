@@ -3,6 +3,7 @@
 /**
  * print_square - prints a list of numbers 0 to 9 using a for loop
  * @size: An integer that determines the number of lines that will be printed
+ * Return: nothing
  */
 
 void print_square(int size)
@@ -20,10 +21,8 @@ void print_square(int size)
 		{
 			for (i = 1; i <= size; i++)
 			{
-				
 				_putchar('#');
 			}
-
 			_putchar('\n');
 		}
 	}

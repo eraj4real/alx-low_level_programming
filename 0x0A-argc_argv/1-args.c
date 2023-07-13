@@ -1,13 +1,17 @@
 #include "main.h"
 
 /**
- * main - writes the character c to stdout
- * @n: The character to print
+ * main - main function
+ * @argc: The character to print
+ * @argv: Array
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _abs(int n)
+
+int main(int argc, char *argv[])
 {
-	return (n);
+	(void) argv;
+	printf("%d\n", argc - 1);
+	return (0);
 }

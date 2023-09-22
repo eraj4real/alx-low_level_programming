@@ -8,7 +8,7 @@
  * @next: pointer to next node
  * int _putchar - putchar function
  * Description: Function header for all linked
- * list task
+ * list tasks
  */
 typedef struct list_s
 {

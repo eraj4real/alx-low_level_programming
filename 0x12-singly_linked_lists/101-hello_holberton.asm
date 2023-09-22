@@ -1,4 +1,4 @@
-          globals    main
+          global    main
           extern    printf
 
 main:
